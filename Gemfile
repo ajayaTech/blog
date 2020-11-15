@@ -6,7 +6,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-paginate", "~> 1.1.0"
   gem "jekyll-sitemap"
-  #gem "github-pages", "~> 3.8.5"
+  gem "github-pages"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
