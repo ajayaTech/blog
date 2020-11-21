@@ -1,7 +1,8 @@
-title:              Clean Blog
+title:              Fit and Geeky
 email:              manish@ajayatech.co
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+description:        Aiming for fitness in the body and geeky in the mind...
+author:             Manish Dwibedy
+copyright:          Ajaya Tech
 baseurl:            ""
 url:                "https://startbootstrap.github.io"
 
@@ -13,7 +14,7 @@ instagram_username:
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   G-870WH83NCK # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
