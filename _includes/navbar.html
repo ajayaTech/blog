@@ -14,8 +14,19 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
         </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#">Categories
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{"/category/technology" | relative_url }}">Technology</a></li>
+            <li><a href="{{"/category/health" | relative_url }}">Health</a></li>
+            <li><a href="{{"/categories" | relative_url }}">All Categories</a></li>
+          </ul>
+        </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/categories" | relative_url }}">Categories</a>
+          <a class="nav-link" href="{{"/categories" | relative_url }}">Categories - OLD</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
