@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
+background: '/assets/images/about.jpg'
 ---
 Hello everybody, I am Manish Dwibedy - working as a Full Stack Developer professioanally for the past 8 years in the Indian and US markets. 
 
@@ -12,6 +13,3 @@ You can follow here over social media here:
 
  - [LinkedIn](https://linkedin.com/in/manishdwibedy)
  - [Instragram](https://www.instagram.com/manishdwibedy) 
- 
-
-
