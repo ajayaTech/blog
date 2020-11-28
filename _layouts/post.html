@@ -22,6 +22,28 @@ layout: default
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
               content=page.content %}
             </span>
+            <span class="meta tags">
+              {% if page.tags and page.tags.size > 0 %}
+                Tag{% if page.tags.size > 1 %}s{% endif %}:
+                {{ page.tags | sort | join: ", " }}
+              {% endif %}
+            </span>
+            <span  class="categories">
+              <div class="meta post-categories">
+                Category: 
+                {% if post %}
+                  {% assign categories = post.categories %}
+                {% else %}
+                  {% assign categories = page.categories %}
+                {% endif %}
+                {% for category in categories %}
+                  {% if category != "fit.n.geeky" %}
+                    <a href="{{site.baseurl}}/category/{{category|downcase}}">{{category}}</a>
+                  {% endif %}  
+                {% unless forloop.last %}&nbsp;{% endunless %}
+                {% endfor %}
+              </div>
+            </span>
           </div>
         </div>
       </div>
