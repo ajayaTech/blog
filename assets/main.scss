@@ -10,3 +10,14 @@ figcaption.post_image {
     border: 1px dotted blue;
     text-align: center;
 }
+
+figure.figure img{  
+    width: 75%;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+}
+
+figure.figure{
+    width: 100%;
+}
