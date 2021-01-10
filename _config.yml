@@ -7,11 +7,11 @@ baseurl:            ""
 url:                "https://blog.ajayatech.co/"
 
 # Social Profiles
-twitter_username:   
+twitter_username: real_geeky
 github_username:    
-facebook_username:  
-instagram_username:  
-linkedin_username:
+facebook_username:  geeky.n.healthy
+instagram_username: fit.n.geeky
+linkedin_username: 
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   G-870WH83NCK # out your google-analytics code
