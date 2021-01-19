@@ -15,3 +15,15 @@ bundle exec jekyll serve --unpublished
 ```
 bundle install
 ```
+
+### Start the venv
+
+```
+env\Scripts\activate.bat
+```
+
+### Run the script 
+
+```
+python create_new_post.py
+```
