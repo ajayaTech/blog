@@ -52,7 +52,7 @@ def createPost(category, post_file_name, date_time, title, subtitle, reference_u
     root = os.path.dirname(os.path.abspath(__file__))
     templates_dir = os.path.join(root, 'templates')
     env = Environment( loader = FileSystemLoader(templates_dir) )
-    template = env.get_template('post.html')
+    template = env.get_template('post.txt')
     
     post_dir = os.path.join(os.path.join(root, 'fit.n.geeky'), '_posts')
     filename = os.path.join(post_dir, post_file_name)
