@@ -50,7 +50,7 @@ def createPost(category, post_file_name, date_time, title, subtitle, reference_u
     import os
  
     root = os.path.dirname(os.path.abspath(__file__))
-    templates_dir = os.path.join(root, 'templates')
+    templates_dir = os.path.join(root, 'templates_1')
     env = Environment( loader = FileSystemLoader(templates_dir) )
     template = env.get_template('post.txt')
     
