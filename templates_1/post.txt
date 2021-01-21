@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: {{type}}
 title: "{{title}}"
 subtitle: "{{subtitle}}"
 date: {{date_time}}

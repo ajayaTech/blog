@@ -58,6 +58,7 @@ def createPost(category, post_file_name, date_time, title, subtitle, reference_u
     filename = os.path.join(post_dir, post_file_name)
     with open(filename, 'w') as fh:
         fh.write(template.render(
+            type = 'post',
             category = category.title(),
             date_time = date_time,
             title = title.title(),
