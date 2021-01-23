@@ -6,3 +6,4 @@ Gemfile.lock
 fit.n.geeky/delphix.py
 IG_post.README
 env/
+.vscode/
